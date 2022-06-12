@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Carousel from "../components/Carousel";
-import CrazySaleCard from "../components/CrazySaleCard";
+import CrazySale from "../components/CrazySale";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Navbar2 from "../components/Navbar2";
@@ -17,12 +17,11 @@ const LandingPage = () => {
   //     setMuncul(false);
   //   };
   return (
-    <div>
-      <Link to="/products">PINDAH KE DETAIL</Link>
+    <div className="bg-slate-100">
       <Navbar />
       <Navbar2 />
       <Carousel />
-      <CrazySaleCard />
+      <CrazySale />
       <SmartPhone />
       <Footer />
     </div>

@@ -1,10 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar.jsx";
+import Navbar2 from "../components/Navbar2.jsx";
+import Footer from "../components/Footer.jsx";
 
 const Products = () => {
   return (
     <div>
-      <Link to="/">pindah nih</Link>
+      <Navbar />
+      <Navbar2 />
+      <Footer />
     </div>
   );
 };

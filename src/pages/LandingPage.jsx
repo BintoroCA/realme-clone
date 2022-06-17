@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import { Link } from "react-router-dom";
-import Carousel from "../components/Carousel";
-import CrazySale from "../components/CrazySale";
+// import Carousel from "../components/Carousel";
+// import CrazySale from "../components/CrazySale";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Navbar2 from "../components/Navbar2";
@@ -20,9 +20,9 @@ const LandingPage = () => {
     <div className="bg-slate-100">
       <Navbar />
       <Navbar2 />
-      <Carousel />
+      {/* <Carousel />
       <CrazySale />
-      <SmartPhone />
+      <SmartPhone /> */}
       <Footer />
     </div>
   );
